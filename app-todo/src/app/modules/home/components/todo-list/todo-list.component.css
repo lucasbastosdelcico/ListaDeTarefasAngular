@@ -1,0 +1,14 @@
+ul{
+
+  list-style: none;
+}
+.todoList{
+    padding:10px;
+    display: flex;
+    min-height:250px;
+    background-color: #fff;
+}
+button{
+    
+    cursor:pointer;
+}
