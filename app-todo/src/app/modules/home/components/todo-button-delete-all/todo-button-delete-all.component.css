@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+:host button {
+  width: 60%;
+  border: none;
+  border-radius: 50px;
+  background: red;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  color: #ffffff;
+}/*# sourceMappingURL=todo-button-delete-all.component.css.map */

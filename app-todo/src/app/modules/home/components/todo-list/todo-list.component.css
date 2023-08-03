@@ -1,14 +1,38 @@
-ul{
-
-  list-style: none;
+section {
+  width: 100%;
+  min-height: 250px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgb(0, 0, 0);
+  margin-top: 20px;
 }
-.todoList{
-    padding:10px;
-    display: flex;
-    min-height:250px;
-    background-color: #fff;
+section.loading {
+  background-image: url("../../../../../assets/img/bg-task.png");
+  background-repeat: no-repeat;
+  background-position: center 30px;
 }
-button{
-    
-    cursor:pointer;
+section ul {
+  padding: 20px;
 }
+section li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section input[type=checkbox] {
+  width: 5%;
+}
+section input[type=text] {
+  width: 80%;
+  padding: 5px 10px;
+  border: none;
+  font-size: 16px;
+  color: #939cbd;
+}
+section input[type=text].checked {
+  text-decoration: line-through;
+}
+section button {
+  width: 5%;
+  background: none;
+  border: none;
+}/*# sourceMappingURL=todo-list.component.css.map */
